@@ -1,0 +1,36 @@
+{
+    "name": "search_google_shopping",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "product_type": {
+          "type": "string"
+        },
+        "gender": {
+          "type": "string",
+          "enum": [
+            "male",
+            "female",
+            "unisex"
+          ]
+        },
+        "size": {
+          "type": "string",
+          "enum": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+          ]
+        },
+        "price": {
+          "type": "int"
+        }
+      },
+      "required": [
+        "product_type"
+      ]
+    },
+    "description": "Searches Google Shopping to find URLs to the top 10 most relevant products"
+  }
