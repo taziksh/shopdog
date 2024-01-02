@@ -1,4 +1,8 @@
-# Getting Started
+# Shopdog
+
+![Demo vid](./shopfront_jan_2_2024_edited.gif)
+
+
 
 
 ```
